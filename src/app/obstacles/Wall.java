@@ -13,4 +13,9 @@ public class Wall implements Obstacle {
     public boolean overcome(Participant participant) {
         return participant.jump(height);
     }
+
+    @Override
+    public String getDescription() {
+        return "Wall[height=" + height + " meters]";
+    }
 }

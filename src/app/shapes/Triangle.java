@@ -13,4 +13,9 @@ public class Triangle implements Shape {
     public double getArea() {
         return 0.5 * base * height;
     }
+
+    @Override
+    public String toString() {
+        return "Triangle[base=" + base + ", height=" + height + "]";
+    }
 }

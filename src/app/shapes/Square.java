@@ -11,4 +11,9 @@ public class Square implements Shape {
     public double getArea() {
         return side * side;
     }
+
+    @Override
+    public String toString() {
+        return "Square[side=" + side + "]";
+    }
 }

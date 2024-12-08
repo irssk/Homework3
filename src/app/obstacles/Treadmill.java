@@ -13,4 +13,9 @@ public class Treadmill implements Obstacle {
     public boolean overcome(Participant participant) {
         return participant.run(length);
     }
+
+    @Override
+    public String getDescription() {
+        return "Treadmill[length=" + length + " meters]";
+    }
 }
